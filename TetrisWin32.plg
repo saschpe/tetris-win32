@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: TetrisWin32 - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPF193.TMP" mit Inhalten
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/TetrisWin32.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Meine Projekte\c projekte\TetrisWin32\tetris.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF193.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPF194.TMP" mit Inhalten
+[
+dxguid.lib ddraw.lib dinput.lib winmm.lib d3dim.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TetrisWin32.pdb" /debug /machine:I386 /out:"Debug/TetrisWin32.exe" /pdbtype:sept 
+".\Debug\tetris.obj"
+".\Debug\XXX2DGrafik.obj"
+".\Debug\XXXList.obj"
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSPF194.TMP"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+tetris.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+TetrisWin32.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>
